@@ -55,7 +55,7 @@ Este projeto consiste na montagem e programação de um circuito oscilador simpl
 ## 📝 Descrição Detalhada por Fase
 
 ### ☁️ 1. Protótipo Virtual (Tinkercad)
-*   **Link do Projeto:** [Clique aqui para acessar meu circuito no Tinkercad](INSIRA_O_LINK_DO_SEU_TINKERCAD_AQUI)
+*   **Link do Projeto:** [Clique aqui para acessar meu circuito no Tinkercad](./01-tinkercad/link)
 *   *O que foi feito:* O circuito foi montado virtualmente utilizando uma placa Arduino Uno, um LED e um resistor. O objetivo desta etapa foi validar a pinagem e garantir que o resistor calculado estivesse protegendo o LED contra queima por sobrecorrente.
 
 ### 🤖 2. Firmware e Lógica de Programação (Arduino)

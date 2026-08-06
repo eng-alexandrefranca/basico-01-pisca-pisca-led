@@ -1,4 +1,4 @@
-# 🚀 basico-01-pisca-pisca-led
+# 🚀 Projeto Básico de Pisca Pisca Led da IUB (basico-01-pisca-pisca-led)
 
 Este projeto consiste na montagem e programação de um circuito oscilador simples para piscar um LED (Light Emitting Diode). Desenvolvido como a primeira lição prática do curso de Eletrônica do Instituto Universal Brasileiro (IUB) para compreender os conceitos de temporização, resistores de limitação de corrente e portas digitais.
 

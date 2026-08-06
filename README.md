@@ -63,6 +63,6 @@ Este projeto consiste na montagem e programação de um circuito oscilador simpl
 
 ## 🎓 Sobre este Projeto
 Este repositório registra o meu passo inicial na eletrônica prática e programação de sistemas embarcados pelo IUB. 
-Desenvolvido com dedicação por **[Seu Nome Aqui]**.
+Desenvolvido com dedicação por **Alexandre França**.
 
 

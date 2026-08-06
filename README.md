@@ -1,6 +1,20 @@
 # 🚀 Projeto Básico de Pisca-Pisca Led da IUB (basico-01-pisca-pisca-led)
 
+<div align="center">
+
+[![DIO](https://img.shields.io/badge/Arduino-arduino.cc-0070f3?style=for-the-badge&logo=arduinos&logoColor=white)](https://www.arduino.cc/)
+[![Istituto Universal Brasileiro](https://img.shields.io/badge/IUB-Cursos-cc0000?style=for-the-badge&logo=iub&logoColor=white)](https://institutouniversal.com.br)
+
+</div>
+
+---
+
 Este projeto consiste na montagem e programação de um circuito oscilador simples para piscar um LED (Light Emitting Diode). Desenvolvido como a primeira lição prática do curso de Eletrônica do Instituto Universal Brasileiro (IUB) para compreender os conceitos de temporização, resistores de limitação de corrente e portas digitais.
+
+*   **Link do Projeto:** [Tinkercad](https://www.tinkercad.com/things/ddJeV7VgXkR-basico-01-pisca-pisca-led)
+
+
+![Circuito](./01-tinkercad/basico-01-pisca-pisca-led_circuito.png)
 
 ---
 

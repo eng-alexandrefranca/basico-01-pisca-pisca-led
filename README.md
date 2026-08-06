@@ -47,6 +47,7 @@ Este projeto consiste na montagem e programação de um circuito oscilador simpl
 ## 🛠️ Tecnologias e Softwares Utilizados
 
 *   **Simulação Virtual:** [Tinkercad](https://tinkercad.com)
+*   **Simulação de Circuitos:** [Falstad](https://www.falstad.com/circuit/)
 *   **Ambiente de Programação:** [Arduino IDE](https://arduino.cc)
 *   **Linguagem:** C++ (Wiring do Arduino)
 
@@ -58,7 +59,11 @@ Este projeto consiste na montagem e programação de um circuito oscilador simpl
 *   **Link do Projeto:** [Clique aqui para acessar meu circuito no Tinkercad](./01-tinkercad/link)
 *   *O que foi feito:* O circuito foi montado virtualmente utilizando uma placa Arduino Uno, um LED e um resistor. O objetivo desta etapa foi validar a pinagem e garantir que o resistor calculado estivesse protegendo o LED contra queima por sobrecorrente.
 
-### 🤖 2. Firmware e Lógica de Programação (Arduino)
+### ☁️ 2. Circuito Virtual (Falstad)
+*   **Link do Projeto:** [Clique aqui para acessar meu circuito no Falstad](./01-falstad/)
+*   *O que foi feito:* O circuito foi montado virtualmente utilizando um LED e um resistor. O objetivo desta etapa foi validar o limite de tensão e corrente e garantir que o resistor calculado estivesse protegendo o LED contra queima por sobrecorrente.
+
+### 🤖 3. Firmware e Lógica de Programação (Arduino)
 *   O código-fonte principal `.ino` está localizado dentro da pasta `04-firmware/arduino/`.
 *   *Lógica utilizada:* O programa configura o pino digital (ex: Pino 13) como saída (`OUTPUT`). Dentro do laço principal (`loop`), a porta é colocada em nível lógico alto (`HIGH`) por 1000 milissegundos e, em seguida, em nível lógico baixo (`LOW`) por mais 1000 milissegundos, criando o efeito de pisca-pisca contínuo.
 

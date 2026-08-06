@@ -75,8 +75,21 @@ Este projeto consiste na montagem e programação de um circuito oscilador simpl
 
 ---
 
+## 🚨 Lista de Componentes Principais (BOM)
+
+| Quantidade | Componente | Descrição / Valor |
+| :--- | :--- | :--- |
+| 1 | Placa de Desenvolvimento | Compatível com Arduino Uno R3 |
+| 1 | Resistor | 220Ω ou 330Ω (Limitador de corrente) |
+| 1 | LED | Vermelho de 5mm |
+| - | Jumpers | Cabos de conexão |
+
+---
+
 ## 🎓 Sobre este Projeto
 Este repositório registra o meu passo inicial na eletrônica prática e programação de sistemas embarcados pelo IUB. 
 Desenvolvido com dedicação por **Alexandre França**.
+
+Lista de Emojis: https://emojidb.org/ 
 
 

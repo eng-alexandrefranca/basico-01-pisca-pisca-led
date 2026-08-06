@@ -21,6 +21,7 @@ Este projeto consiste na montagem e programação de um circuito oscilador simpl
 ## 📈 Status de Evolução do Projeto
 - [x] ☁️ **Fase 1:** Simulação inicial concluída no Tinkercad.
 - [x] 🤖 **Fase 2:** Programação e Firmware escritos na IDE do Arduino.
+- [x] 💻 **Fase 3:** Simulação básisa validada (Falstad).
 - [ ] 💻 **Fase 3:** Simulação avançada validada (Proteus/LTspice/Falstad).
 - [ ] 📐 **Fase 4:** Diagrama esquemático e layout de placa PCI desenhados (KiCad/EasyEDA).
 - [ ] 🛠️ **Fase 5:** Montagem física na bancada e testes com componentes reais.

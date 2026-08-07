@@ -103,6 +103,20 @@ $R \neq 150 \ \Omega \rightarrow Vt \neq 4,26\  V$.
 
 ---
 
+## Ω Código de Cores dos Resistores
+
+Nos resistores o valor da resistência e a tolerãncia são designados por uma sequência de cores impressa, conhecida como código de cores:
+
+---
+
+![Resistor](./00-calculo-led/codigo-cores-resistor_arduino_portugal..png)
+
+
+Fontes:
+
+https://mundoeducacao.uol.com.br/fisica/resistores.htm
+
+
 ## 🚨 Limitação de Tensão e Corrente em LEDs
 
 Dadas as limitações de corrente e tensão no Led e necessário em muitos casos adcicionar um reistor em série para a correta limitação.

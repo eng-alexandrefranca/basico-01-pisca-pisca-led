@@ -9,7 +9,7 @@
 
 ---
 
-Este projeto consiste na montagem e programação de um circuito oscilador simples para piscar um LED (Light Emitting Diode). Desenvolvido como a primeira lição prática do curso de Eletrônica do Instituto Universal Brasileiro (IUB) para compreender os conceitos de temporização, resistores de limitação de corrente e portas digitais.
+Este projeto consiste na montagem e programação de um circuito oscilador simples para piscar um LED (Light Emitting Diode). Desenvolvido como a primeira lição prática do curso de Arduino do Instituto Universal Brasileiro (IUB) para compreender os conceitos de temporização, resistores de limitação de corrente e portas digitais.
 
 *   **Link do Projeto - Versão 01:** [Tinkercad](https://www.tinkercad.com/things/ddJeV7VgXkR-basico-01-pisca-pisca-ledv1)
 
@@ -31,9 +31,9 @@ Chave ON:
 
 ![Circuito](./02-tinkercad/v2/basico-01-pisca-pisca-led_v2-simulacao-ON.png)
 
-**Observação:** No circuito em operação a fonte de tensão se comporta como uma fonte real, entragando uma tensão abaixo da nominal, ou seja, $Vt < 5 V$.
+**Observação:** No circuito em operação, a fonte de tensão se comporta como uma fonte real, entregando uma tensão abaixo da nominal, ou seja, $Vt < 5 V$.
 
-A resistência interna da fonte (**Ri**) compõe a Resistênsia Equivalente (**Req**) com o Resistor em Série (**R**), com isso, a tensão de saída irá variar, dependendo do valor do resistor **R**, logo:
+A resistência interna da fonte (**Ri**) compõe a Resistênsia Equivalente (**Req**) com o Resistor em Série (**R**), com isso, a tensão de saída irá variar, dependendo do valor do resistor **R**, ou seja:
 
 $R \neq 150 \ \Omega \rightarrow Vt \neq 4,26\  V$.
 

@@ -11,10 +11,32 @@
 
 Este projeto consiste na montagem e programação de um circuito oscilador simples para piscar um LED (Light Emitting Diode). Desenvolvido como a primeira lição prática do curso de Eletrônica do Instituto Universal Brasileiro (IUB) para compreender os conceitos de temporização, resistores de limitação de corrente e portas digitais.
 
-*   **Link do Projeto:** [Tinkercad](https://www.tinkercad.com/things/ddJeV7VgXkR-basico-01-pisca-pisca-led)
+*   **Link do Projeto - Versão 01:** [Tinkercad](https://www.tinkercad.com/things/ddJeV7VgXkR-basico-01-pisca-pisca-ledv1)
 
 
-![Circuito](./02-tinkercad/basico-01-pisca-pisca-led_circuito.png)
+![Circuito](./02-tinkercad/v1/basico-01-pisca-pisca-led_circuito.png)
+
+*   **Link do Projeto - Versão 02:** [Tinkercad](https://www.tinkercad.com/things/e1mFdxatSdE-basico-01-pisca-pisca-ledv2)
+
+
+Montagem:
+
+![Circuito](./02-tinkercad/v2/basico-01-pisca-pisca-led_v2.png)
+
+Chave OFF:
+
+![Circuito](./02-tinkercad/v2/basico-01-pisca-pisca-led_v2-simulacao-OFF.png)
+
+Chave ON:
+
+![Circuito](./02-tinkercad/v2/basico-01-pisca-pisca-led_v2-simulacao-ON.png)
+
+**Observação:** No circuito em operação a fonte de tensão se comporta como uma fonte real, entragando uma tensão abaixo da nominal, ou seja, $Vt < 5 V$.
+
+A resistência interna da fonte (**Ri**) compõe a Resistênsia Equivalente (**Req**) com o Resistor em Série (**R**), com isso, a tensão de saída irá variar, dependendo do valor do resistor **R**, logo:
+
+$R \neq 150 \ \Omega \rightarrow Vt \neq 4,26\  V$.
+
 
 ---
 
@@ -102,7 +124,7 @@ https://share.google/q8cRXUE1vwOQglHyV
 https://share.google/RcbRnX1RifIai1M7W
 
 
-**Valores Típicos:**
+**Valores Típicos - Fonte de 6 V:**
 
 *Tensão no Resistor:*
 
@@ -117,9 +139,37 @@ $R =\frac{Vr}{I(máxima do led)}$
 
 $R =\frac{4,2\;V }{20\;mA} = 210\; Ohms$
 
-***Resistor Comercial: 220 Ohms***
+Então:
+
+***Fonte = 6 V***
+
+***Resistor Comercial = 220 Ohms***
 
 ![Circuito](./01-falstad/v1/circuit-20260806-2119.png)
+
+
+**Valores Típicos - Fonte de 5 V:**
+
+*Tensão no Resistor:*
+
+$Vr = Vt - V(led)$
+
+$Vr = 5\;V - 2\;V = 3\;V$
+
+
+*Valor da Resistência:*
+
+$R =\frac{Vr}{I(máxima do led)}$
+
+$R =\frac{3\;V }{20\;mA} = 150\; Ohms$
+
+Então:
+
+***Fonte = 5 V***
+
+***Resistor Comercial = 220 Ohms***
+
+![Circuito](./01-falstad/v2/circuit-20260807-0135.png)
 
 **Observação:**
 

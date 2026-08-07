@@ -5,8 +5,8 @@
   <v x="192 288 192 208" f="16" wf="0" maxv="1.5"/>
   <v x="192 368 192 288" f="16" wf="0" maxv="1.5"/>
   <v x="192 128 192 48" f="16" wf="0" maxv="1.5"/>
-  <r x="192 48 320 48" f="0" r="210"/>
-  <w x="400 48 400 368" f="0"/>
+  <r x="192 48 320 48" f="0" r="220"/>
+  <w x="400 48 400 368" f="13"/>
   <w x="192 368 400 368" f="0"/>
-  <x x="-170 10 164 283" f="0" si="24" te="Valor do Resistor\n\nVr = Vt - V(led)\n\nVr = 6 - 1,8 = 4,2 V\n\nR = Vr / I(máxima do led)\n\nR = 4,2 V / 20 mA =  210 Ohms\n\n[Valor Típido]" co="#04f6f2"/>
+  <x x="-224 16 151 505" f="0" si="24" te="LED [Valores Típidos]:\n\nV(Led) = 1,8 V\n\nI(Led) = 20 mA (Valor Máximo)\n\nResistor:\n\nVr = Vt - V(Led)\n\nVr = 6 V - 1,8 V = 4,2 V\n\nR = Vr / I(Led)\n\nR = 4,2 V / 20 mA =  210 Ohms\n\n&gt;&gt;&gt; Resistor Comercial: 220 Ohms\n\n" co="#04f6f2"/>
 </cir>

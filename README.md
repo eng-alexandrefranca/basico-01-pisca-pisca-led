@@ -85,22 +85,6 @@ Este projeto consiste na montagem e programação de um circuito oscilador simpl
 
 Dadas as limitações de corrente e tensão no Led e necessário em muitos casos adcicionar um reistor em série para a correta limitação.
 
-**Valores Típicos:**
-
-*Tensão no Resistor:*
-
-$Vr = Vt - V(led)$
-
-$Vr = 6\;V - 1,8\;V = 4,2\;V$
-
-
-*Valor da Resistência:*
-
-
-$R =\frac{Vr}{I(máxima do led)}$
-
-$R =\frac{4,2\;V }{20\;mA} = 210\; Ohms$
-
 ---
 
 ![Circuito](./00-calculo-led/resistencia-led_mundo_eletrica.png)
@@ -117,6 +101,26 @@ https://share.google/q8cRXUE1vwOQglHyV
 
 https://share.google/RcbRnX1RifIai1M7W
 
+
+**Valores Típicos:**
+
+*Tensão no Resistor:*
+
+$Vr = Vt - V(led)$
+
+$Vr = 6\;V - 1,8\;V = 4,2\;V$
+
+
+*Valor da Resistência:*
+
+
+$R =\frac{Vr}{I(máxima do led)}$
+
+$R =\frac{4,2\;V }{20\;mA} = 210\; Ohms$
+
+***Resistor Comercial: 220 Ohms***
+
+![Circuito](./01-falstad/circuit-20260806-2119.png)
 
 **Observação:**
 

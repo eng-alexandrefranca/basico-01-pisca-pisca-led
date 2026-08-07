@@ -1,0 +1,14 @@
+<cir f="1" ts="0.000005" ic="10.20027730826997" cb="50" pb="50" vr="5" mts="5e-11">
+  <LED x="320 48 400 48" f="0" mo="default-led" cr="1" cg="0" cb="0" mbc="0.01"/>
+  <v x="128 240 128 160" f="16" wf="0" maxv="5"/>
+  <r x="192 48 320 48" f="0" r="150"/>
+  <w x="400 48 400 368" f="13"/>
+  <x x="-294 16 86 505" f="0" si="24" te="LED [Valores Típidos]:\n\nV(Led) = 1,8 V\n\nI(Led) = 20 mA (Valor Máximo)\n\nResistor:\n\nVr = Vt - V(Led)\n\nVr = 5 V - 2 V = 3 V\n\nR = Vr / I(Led)\n\nR = 3 V / 20 mA =  150 Ohms\n\nOBS.: A fonte de saída real é &amp;lt; 5 V.\n\n" co="#04f6f2"/>
+  <w x="128 240 128 368" f="0"/>
+  <w x="128 160 128 48" f="0"/>
+  <w x="192 48 128 48" f="0"/>
+  <g x="128 368 128 432" f="0"/>
+  <p x="192 48 192 368" f="3" me="0" sc="0" re="10000000"/>
+  <w x="400 368 192 368" f="0"/>
+  <w x="192 368 128 368" f="0"/>
+</cir>

@@ -113,14 +113,13 @@ $Vr = 6\;V - 1,8\;V = 4,2\;V$
 
 *Valor da Resistência:*
 
-
 $R =\frac{Vr}{I(máxima do led)}$
 
 $R =\frac{4,2\;V }{20\;mA} = 210\; Ohms$
 
 ***Resistor Comercial: 220 Ohms***
 
-![Circuito](./01-falstad/circuit-20260806-2119.png)
+![Circuito](./01-falstad/v1/circuit-20260806-2119.png)
 
 **Observação:**
 

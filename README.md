@@ -158,13 +158,14 @@ Escolha o tamanho do espaço baseado nos comandos abaixo, ordenados do menor par
 * Espaço grande (quad): \quad (exemplo: $a\quad b$)
 * Espaço muito grande (2 quads): \qquad (exemplo: $a\qquad b$)
 
-**Como aplicar no Markdown**
+**Como aplicar no Markdown:**
 
 * Exemplo de código:
 
 $$x \quad y \qquad z$$
 
-** Inserindo texto normal com espaços**
+**Inserindo texto normal com espaços**:
+
 Se você quiser digitar uma palavra inteira com espaços normais dentro da fórmula, use o comando \text{...}:
 
 * Exemplo de código:
